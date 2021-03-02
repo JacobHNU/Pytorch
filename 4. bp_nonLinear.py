@@ -54,3 +54,11 @@ plt.plot(epoch_list, loss_list)
 plt.ylabel("loss")
 plt.xlabel("epoch")
 plt.show()
+
+
+#predict (before training) 4 21.0
+#训练1000epoch
+#predict (after training) 4 25.152122497558594
+#训练10000epoch
+#predict (after training) 4 25.000938415527344
+#在修改训练集的x,y值后，训练结果接近25，
